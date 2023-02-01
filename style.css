@@ -117,7 +117,7 @@ justify-items: flex-end;
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 5px;
-    background-color: rgb(171, 218, 133);
+    background-color: rgba(160, 101, 209, 0.63);
     display: inline-block;
     height: 90px;
     width: 400px;
@@ -136,11 +136,12 @@ justify-items: flex-end;
     height: 30px;
     width: 200px;
     margin-left: 10px;
-    background-color: #f0808096;
+    background-color: #c9838396;
     padding-top: 5px;
     margin-top: 50px;
     border-radius: 8px;
-    border: 2px solid red;
+    
+    text-decoration: none;
 
 }
 
@@ -150,6 +151,7 @@ justify-items: flex-end;
     height: 450px;
     border: 4px solid rgb(24, 197, 131);
     margin-top: -180px;
+    opacity: 0.1;
 
 }
 
@@ -167,14 +169,19 @@ body {
 
 
 }
-#about3 a{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    
-    width: fit-content;
+#about3 {
+    text-decoration: none;
+    font-size: larger;
+    color: darkred;
+    background-color: aliceblue;
 }
+    
 
 .socials{
    margin-left: 20px;
    margin-top: -250px;
+}
+#clg a{
+    text-decoration: none;
+    color: black;
 }
