@@ -185,3 +185,8 @@ body {
     text-decoration: none;
     color: black;
 }
+.img p:hover{
+ background-color:lightcoral;
+ transition:1s;
+ border-radius: 10px;
+}
