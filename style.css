@@ -192,3 +192,13 @@ body {
  transition:1s;
  border-radius: 10px;
 }
+.school{
+  
+    margin-top: 250px;
+    background-color: cadetblue;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    /* padding: 1px; */
+    padding-left: 5px;
+}
