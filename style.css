@@ -200,5 +200,6 @@ body {
     width: 300px;
     border-radius: 10px;
     /* padding: 1px; */
+    text-shadow: 1px 1px yellow;
     padding-left: 5px;
 }
