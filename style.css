@@ -32,9 +32,9 @@ justify-content: center;
 margin: 5px;
 
 justify-items: flex-end;
-}
+} */
 
-*/ #box {
+ #box {
     background-color: #c5d5cbb3;
 }
 
@@ -174,8 +174,15 @@ body {
 #about3 {
     text-decoration: none;
     font-size: larger;
-    color: darkred;
-    background-color: aliceblue;
+    color: rgb(255, 250, 250);
+    background-color: rgb(52, 99, 139);
+    padding: 4px;
+    border-radius: 3px;
+
+}
+#about3:hover{
+    transition: 1s;
+    background-color: rgb(204, 23, 204);
 }
     
 
